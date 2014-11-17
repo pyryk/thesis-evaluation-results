@@ -1,0 +1,446 @@
+{
+    "reports": [
+        {
+            "aggregate": {
+                "sloc": {
+                    "logical": 30,
+                    "physical": 30
+                },
+                "cyclomatic": 2,
+                "halstead": {
+                    "operators": {
+                        "distinct": 12,
+                        "total": 86,
+                        "identifiers": [
+                            "()",
+                            "function",
+                            "var",
+                            "=",
+                            "new",
+                            ".",
+                            "{}",
+                            ":",
+                            "return",
+                            "[]",
+                            "||",
+                            "<="
+                        ]
+                    },
+                    "operands": {
+                        "distinct": 54,
+                        "total": 104,
+                        "identifiers": [
+                            "<anonymous>",
+                            "map",
+                            "\"map\"",
+                            "document",
+                            "getElementById",
+                            "zoom",
+                            11,
+                            "thematic",
+                            "Thematic",
+                            "traveltimes",
+                            "data",
+                            "\"time\"",
+                            "aggregators",
+                            "average",
+                            "resp",
+                            "json",
+                            "\"futu.geojson\"",
+                            "fetch",
+                            "then",
+                            "\"rajis.geojson\"",
+                            "Promise",
+                            "all",
+                            "\"travel-times\"",
+                            "scale",
+                            "modules",
+                            "Dasymetric",
+                            "setData",
+                            "setScale",
+                            "addModule",
+                            "value",
+                            "colors",
+                            "maxTime",
+                            30,
+                            "color",
+                            "\"green\"",
+                            40,
+                            "\"yellowgreen\"",
+                            50,
+                            "\"yellow\"",
+                            60,
+                            "\"orange\"",
+                            80,
+                            "\"red\"",
+                            100,
+                            "\"purple\"",
+                            120,
+                            "\"blue\"",
+                            "getColor",
+                            "time",
+                            "entry",
+                            "it",
+                            "_",
+                            "find",
+                            "last"
+                        ]
+                    },
+                    "length": 190,
+                    "vocabulary": 66,
+                    "difficulty": 11.555555555555555,
+                    "volume": 1148.434882678106,
+                    "effort": 13270.80308872478,
+                    "bugs": 0.3828116275593687,
+                    "time": 737.2668382624878
+                },
+                "params": 6,
+                "line": 1,
+                "cyclomaticDensity": 6.666666666666667
+            },
+            "functions": [
+                {
+                    "name": "<anonymous>",
+                    "sloc": {
+                        "logical": 5,
+                        "physical": 30
+                    },
+                    "cyclomatic": 1,
+                    "halstead": {
+                        "operators": {
+                            "distinct": 9,
+                            "total": 34,
+                            "identifiers": [
+                                "var",
+                                "=",
+                                "new",
+                                "()",
+                                ".",
+                                "{}",
+                                ":",
+                                "function",
+                                "[]"
+                            ]
+                        },
+                        "operands": {
+                            "distinct": 24,
+                            "total": 35,
+                            "identifiers": [
+                                "map",
+                                "\"map\"",
+                                "document",
+                                "getElementById",
+                                "<anonymous>",
+                                "zoom",
+                                11,
+                                "thematic",
+                                "Thematic",
+                                "traveltimes",
+                                "\"futu.geojson\"",
+                                "fetch",
+                                "then",
+                                "\"rajis.geojson\"",
+                                "Promise",
+                                "all",
+                                "\"travel-times\"",
+                                "scale",
+                                "\"time\"",
+                                "modules",
+                                "Dasymetric",
+                                "setData",
+                                "setScale",
+                                "addModule"
+                            ]
+                        },
+                        "length": 69,
+                        "vocabulary": 33,
+                        "difficulty": 6.5625,
+                        "volume": 348.0631942357333,
+                        "effort": 2284.164712172,
+                        "bugs": 0.11602106474524443,
+                        "time": 126.8980395651111
+                    },
+                    "params": 0,
+                    "line": 1,
+                    "cyclomaticDensity": 20
+                },
+                {
+                    "name": "<anonymous>",
+                    "sloc": {
+                        "logical": 1,
+                        "physical": 1
+                    },
+                    "cyclomatic": 1,
+                    "halstead": {
+                        "operators": {
+                            "distinct": 3,
+                            "total": 4,
+                            "identifiers": [
+                                "return",
+                                "()",
+                                "."
+                            ]
+                        },
+                        "operands": {
+                            "distinct": 5,
+                            "total": 6,
+                            "identifiers": [
+                                "data",
+                                "\"time\"",
+                                "thematic",
+                                "aggregators",
+                                "average"
+                            ]
+                        },
+                        "length": 10,
+                        "vocabulary": 8,
+                        "difficulty": 1.7999999999999998,
+                        "volume": 30,
+                        "effort": 53.99999999999999,
+                        "bugs": 0.01,
+                        "time": 2.9999999999999996
+                    },
+                    "params": 1,
+                    "line": 7,
+                    "cyclomaticDensity": 100
+                },
+                {
+                    "name": "<anonymous>",
+                    "sloc": {
+                        "logical": 1,
+                        "physical": 1
+                    },
+                    "cyclomatic": 1,
+                    "halstead": {
+                        "operators": {
+                            "distinct": 3,
+                            "total": 3,
+                            "identifiers": [
+                                "return",
+                                "()",
+                                "."
+                            ]
+                        },
+                        "operands": {
+                            "distinct": 2,
+                            "total": 3,
+                            "identifiers": [
+                                "resp",
+                                "json"
+                            ]
+                        },
+                        "length": 6,
+                        "vocabulary": 5,
+                        "difficulty": 2.25,
+                        "volume": 13.931568569324174,
+                        "effort": 31.34602928097939,
+                        "bugs": 0.004643856189774725,
+                        "time": 1.7414460711655217
+                    },
+                    "params": 1,
+                    "line": 5,
+                    "cyclomaticDensity": 100
+                },
+                {
+                    "name": "<anonymous>",
+                    "sloc": {
+                        "logical": 1,
+                        "physical": 1
+                    },
+                    "cyclomatic": 1,
+                    "halstead": {
+                        "operators": {
+                            "distinct": 3,
+                            "total": 3,
+                            "identifiers": [
+                                "return",
+                                "()",
+                                "."
+                            ]
+                        },
+                        "operands": {
+                            "distinct": 2,
+                            "total": 3,
+                            "identifiers": [
+                                "resp",
+                                "json"
+                            ]
+                        },
+                        "length": 6,
+                        "vocabulary": 5,
+                        "difficulty": 2.25,
+                        "volume": 13.931568569324174,
+                        "effort": 31.34602928097939,
+                        "bugs": 0.004643856189774725,
+                        "time": 1.7414460711655217
+                    },
+                    "params": 1,
+                    "line": 6,
+                    "cyclomaticDensity": 100
+                },
+                {
+                    "name": "scale",
+                    "sloc": {
+                        "logical": 17,
+                        "physical": 19
+                    },
+                    "cyclomatic": 1,
+                    "halstead": {
+                        "operators": {
+                            "distinct": 8,
+                            "total": 27,
+                            "identifiers": [
+                                "var",
+                                "=",
+                                "[]",
+                                "{}",
+                                ":",
+                                "function",
+                                "return",
+                                "()"
+                            ]
+                        },
+                        "operands": {
+                            "distinct": 20,
+                            "total": 41,
+                            "identifiers": [
+                                "value",
+                                "colors",
+                                "<anonymous>",
+                                "maxTime",
+                                30,
+                                "color",
+                                "\"green\"",
+                                40,
+                                "\"yellowgreen\"",
+                                50,
+                                "\"yellow\"",
+                                60,
+                                "\"orange\"",
+                                80,
+                                "\"red\"",
+                                100,
+                                "\"purple\"",
+                                120,
+                                "\"blue\"",
+                                "getColor"
+                            ]
+                        },
+                        "length": 68,
+                        "vocabulary": 28,
+                        "difficulty": 8.2,
+                        "volume": 326.90013469991703,
+                        "effort": 2680.5811045393193,
+                        "bugs": 0.10896671156663901,
+                        "time": 148.92117247440663
+                    },
+                    "params": 1,
+                    "line": 11,
+                    "cyclomaticDensity": 5.88235294117647
+                },
+                {
+                    "name": "getColor",
+                    "sloc": {
+                        "logical": 2,
+                        "physical": 4
+                    },
+                    "cyclomatic": 2,
+                    "halstead": {
+                        "operators": {
+                            "distinct": 7,
+                            "total": 10,
+                            "identifiers": [
+                                "var",
+                                "=",
+                                "||",
+                                "()",
+                                "function",
+                                ".",
+                                "return"
+                            ]
+                        },
+                        "operands": {
+                            "distinct": 8,
+                            "total": 11,
+                            "identifiers": [
+                                "time",
+                                "entry",
+                                "colors",
+                                "<anonymous>",
+                                "_",
+                                "find",
+                                "last",
+                                "color"
+                            ]
+                        },
+                        "length": 21,
+                        "vocabulary": 15,
+                        "difficulty": 4.8125,
+                        "volume": 82.0447025077789,
+                        "effort": 394.8401308186859,
+                        "bugs": 0.02734823416925963,
+                        "time": 21.935562823260327
+                    },
+                    "params": 1,
+                    "line": 23,
+                    "cyclomaticDensity": 100
+                },
+                {
+                    "name": "<anonymous>",
+                    "sloc": {
+                        "logical": 1,
+                        "physical": 1
+                    },
+                    "cyclomatic": 1,
+                    "halstead": {
+                        "operators": {
+                            "distinct": 3,
+                            "total": 3,
+                            "identifiers": [
+                                "return",
+                                "<=",
+                                "."
+                            ]
+                        },
+                        "operands": {
+                            "distinct": 3,
+                            "total": 4,
+                            "identifiers": [
+                                "it",
+                                "time",
+                                "maxTime"
+                            ]
+                        },
+                        "length": 7,
+                        "vocabulary": 6,
+                        "difficulty": 2,
+                        "volume": 18.094737505048094,
+                        "effort": 36.18947501009619,
+                        "bugs": 0.006031579168349364,
+                        "time": 2.0105263894497885
+                    },
+                    "params": 1,
+                    "line": 24,
+                    "cyclomaticDensity": 100
+                }
+            ],
+            "dependencies": [],
+            "maintainability": 125.70382657681012,
+            "params": 0.8571428571428571,
+            "path": "/Users/pkro/Dropbox/Dippa/geoviz-framework-3/src/htdocs/examples/isarithmic/isarithmic.js"
+        }
+    ],
+    "adjacencyMatrix": [
+        [
+            0
+        ]
+    ],
+    "firstOrderDensity": 0,
+    "visibilityMatrix": [
+        [
+            0
+        ]
+    ],
+    "changeCost": 100,
+    "coreSize": 0
+}

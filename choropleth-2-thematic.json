@@ -1,0 +1,370 @@
+{
+    "reports": [
+        {
+            "aggregate": {
+                "sloc": {
+                    "logical": 17,
+                    "physical": 17
+                },
+                "cyclomatic": 1,
+                "halstead": {
+                    "operators": {
+                        "distinct": 13,
+                        "total": 76,
+                        "identifiers": [
+                            "()",
+                            "function",
+                            "var",
+                            "=",
+                            "new",
+                            ".",
+                            "{}",
+                            ":",
+                            "[]",
+                            "*",
+                            "/",
+                            "+",
+                            "return"
+                        ]
+                    },
+                    "operands": {
+                        "distinct": 56,
+                        "total": 88,
+                        "identifiers": [
+                            "<anonymous>",
+                            "map",
+                            "\"map\"",
+                            "document",
+                            "getElementById",
+                            "center",
+                            65.199324,
+                            24.941025,
+                            "zoom",
+                            6,
+                            "imagePath",
+                            "\"/images/leaflet\"",
+                            "thematic",
+                            "Thematic",
+                            "data",
+                            "features",
+                            "it",
+                            "properties",
+                            "percentage",
+                            "degree",
+                            "no_degree",
+                            100,
+                            "_",
+                            "each",
+                            "resp",
+                            "json",
+                            "\"data.geojson\"",
+                            "fetch",
+                            "then",
+                            "scale",
+                            "\"#e5f5f9\"",
+                            "\"#99d8c9\"",
+                            "\"#2ca25f\"",
+                            60,
+                            65,
+                            70,
+                            "d3",
+                            "linear",
+                            "domain",
+                            "range",
+                            "\"degrees\"",
+                            "field",
+                            "\"percentage\"",
+                            "popupText",
+                            "popup",
+                            "modules",
+                            "Choropleth",
+                            "setScale",
+                            "setData",
+                            "addModule",
+                            "feature",
+                            "Maakunta",
+                            "\": \"",
+                            1,
+                            "toFixed",
+                            "\" %\""
+                        ]
+                    },
+                    "length": 164,
+                    "vocabulary": 69,
+                    "difficulty": 10.214285714285714,
+                    "volume": 1001.7980109116199,
+                    "effort": 10232.651111454403,
+                    "bugs": 0.3339326703038733,
+                    "time": 568.4806173030224
+                },
+                "params": 4,
+                "line": 1,
+                "cyclomaticDensity": 5.88235294117647
+            },
+            "functions": [
+                {
+                    "name": "<anonymous>",
+                    "sloc": {
+                        "logical": 10,
+                        "physical": 17
+                    },
+                    "cyclomatic": 1,
+                    "halstead": {
+                        "operators": {
+                            "distinct": 9,
+                            "total": 44,
+                            "identifiers": [
+                                "var",
+                                "=",
+                                "new",
+                                "()",
+                                ".",
+                                "{}",
+                                ":",
+                                "[]",
+                                "function"
+                            ]
+                        },
+                        "operands": {
+                            "distinct": 39,
+                            "total": 52,
+                            "identifiers": [
+                                "map",
+                                "\"map\"",
+                                "document",
+                                "getElementById",
+                                "<anonymous>",
+                                "center",
+                                65.199324,
+                                24.941025,
+                                "zoom",
+                                6,
+                                "imagePath",
+                                "\"/images/leaflet\"",
+                                "thematic",
+                                "Thematic",
+                                "data",
+                                "\"data.geojson\"",
+                                "fetch",
+                                "then",
+                                "scale",
+                                "\"#e5f5f9\"",
+                                "\"#99d8c9\"",
+                                "\"#2ca25f\"",
+                                60,
+                                65,
+                                70,
+                                "d3",
+                                "linear",
+                                "domain",
+                                "range",
+                                "\"degrees\"",
+                                "field",
+                                "\"percentage\"",
+                                "popupText",
+                                "popup",
+                                "modules",
+                                "Choropleth",
+                                "setScale",
+                                "setData",
+                                "addModule"
+                            ]
+                        },
+                        "length": 96,
+                        "vocabulary": 48,
+                        "difficulty": 6,
+                        "volume": 536.156400069231,
+                        "effort": 3216.9384004153862,
+                        "bugs": 0.17871880002307702,
+                        "time": 178.71880002307702
+                    },
+                    "params": 0,
+                    "line": 1,
+                    "cyclomaticDensity": 10
+                },
+                {
+                    "name": "<anonymous>",
+                    "sloc": {
+                        "logical": 2,
+                        "physical": 7
+                    },
+                    "cyclomatic": 1,
+                    "halstead": {
+                        "operators": {
+                            "distinct": 4,
+                            "total": 5,
+                            "identifiers": [
+                                "()",
+                                ".",
+                                "function",
+                                "return"
+                            ]
+                        },
+                        "operands": {
+                            "distinct": 5,
+                            "total": 7,
+                            "identifiers": [
+                                "data",
+                                "features",
+                                "<anonymous>",
+                                "_",
+                                "each"
+                            ]
+                        },
+                        "length": 12,
+                        "vocabulary": 9,
+                        "difficulty": 2.8,
+                        "volume": 38.03910001730775,
+                        "effort": 106.5094800484617,
+                        "bugs": 0.012679700005769252,
+                        "time": 5.91719333602565
+                    },
+                    "params": 1,
+                    "line": 3,
+                    "cyclomaticDensity": 50
+                },
+                {
+                    "name": "<anonymous>",
+                    "sloc": {
+                        "logical": 1,
+                        "physical": 3
+                    },
+                    "cyclomatic": 1,
+                    "halstead": {
+                        "operators": {
+                            "distinct": 5,
+                            "total": 12,
+                            "identifiers": [
+                                "=",
+                                ".",
+                                "*",
+                                "/",
+                                "+"
+                            ]
+                        },
+                        "operands": {
+                            "distinct": 6,
+                            "total": 14,
+                            "identifiers": [
+                                "it",
+                                "properties",
+                                "percentage",
+                                "degree",
+                                "no_degree",
+                                100
+                            ]
+                        },
+                        "length": 26,
+                        "vocabulary": 11,
+                        "difficulty": 5.833333333333334,
+                        "volume": 89.94522208456974,
+                        "effort": 524.6804621599902,
+                        "bugs": 0.02998174069485658,
+                        "time": 29.1489145644439
+                    },
+                    "params": 1,
+                    "line": 4,
+                    "cyclomaticDensity": 100
+                },
+                {
+                    "name": "<anonymous>",
+                    "sloc": {
+                        "logical": 1,
+                        "physical": 1
+                    },
+                    "cyclomatic": 1,
+                    "halstead": {
+                        "operators": {
+                            "distinct": 3,
+                            "total": 3,
+                            "identifiers": [
+                                "return",
+                                "()",
+                                "."
+                            ]
+                        },
+                        "operands": {
+                            "distinct": 2,
+                            "total": 3,
+                            "identifiers": [
+                                "resp",
+                                "json"
+                            ]
+                        },
+                        "length": 6,
+                        "vocabulary": 5,
+                        "difficulty": 2.25,
+                        "volume": 13.931568569324174,
+                        "effort": 31.34602928097939,
+                        "bugs": 0.004643856189774725,
+                        "time": 1.7414460711655217
+                    },
+                    "params": 1,
+                    "line": 3,
+                    "cyclomaticDensity": 100
+                },
+                {
+                    "name": "popup",
+                    "sloc": {
+                        "logical": 1,
+                        "physical": 3
+                    },
+                    "cyclomatic": 1,
+                    "halstead": {
+                        "operators": {
+                            "distinct": 4,
+                            "total": 10,
+                            "identifiers": [
+                                "return",
+                                "+",
+                                ".",
+                                "()"
+                            ]
+                        },
+                        "operands": {
+                            "distinct": 8,
+                            "total": 11,
+                            "identifiers": [
+                                "feature",
+                                "properties",
+                                "Maakunta",
+                                "\": \"",
+                                1,
+                                "percentage",
+                                "toFixed",
+                                "\" %\""
+                            ]
+                        },
+                        "length": 21,
+                        "vocabulary": 12,
+                        "difficulty": 2.75,
+                        "volume": 75.28421251514429,
+                        "effort": 207.0315844166468,
+                        "bugs": 0.025094737505048096,
+                        "time": 11.501754689813712
+                    },
+                    "params": 1,
+                    "line": 14,
+                    "cyclomaticDensity": 100
+                }
+            ],
+            "dependencies": [],
+            "maintainability": 130.2679346508574,
+            "params": 0.8,
+            "path": "/Users/pkro/Dropbox/Dippa/geoviz-framework-3/src/htdocs/examples/choropleth-2/app.js"
+        }
+    ],
+    "adjacencyMatrix": [
+        [
+            0
+        ]
+    ],
+    "firstOrderDensity": 0,
+    "visibilityMatrix": [
+        [
+            0
+        ]
+    ],
+    "changeCost": 100,
+    "coreSize": 0
+}

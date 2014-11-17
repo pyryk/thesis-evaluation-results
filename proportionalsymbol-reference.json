@@ -1,0 +1,893 @@
+{
+    "reports": [
+        {
+            "aggregate": {
+                "sloc": {
+                    "logical": 79,
+                    "physical": 121
+                },
+                "cyclomatic": 10,
+                "halstead": {
+                    "operators": {
+                        "distinct": 17,
+                        "total": 243,
+                        "identifiers": [
+                            "var",
+                            "=",
+                            "{}",
+                            ":",
+                            "new",
+                            ".",
+                            "[]",
+                            "function",
+                            "()",
+                            "if",
+                            "&&",
+                            "return",
+                            ":?",
+                            "else",
+                            "! (prefix)",
+                            "+",
+                            "<"
+                        ]
+                    },
+                    "operands": {
+                        "distinct": 106,
+                        "total": 293,
+                        "identifiers": [
+                            "peruskartta",
+                            "<anonymous>",
+                            "map",
+                            "undefined",
+                            "marker",
+                            "circle",
+                            "defaultLocation",
+                            60.2275,
+                            24.9335,
+                            "L",
+                            "LatLng",
+                            "panned",
+                            false,
+                            "quakesFile",
+                            "\"earthquakes-in-california.json\"",
+                            "quakes",
+                            "initialize",
+                            "this",
+                            "\"map\"",
+                            "Map",
+                            "tileurl",
+                            "\"http://{s}.tile.osm.org/{z}/{x}/{y}.png\"",
+                            "basemap",
+                            "attribution",
+                            "\"&copy; <a href=\"http://osm.org/copyright\">OpenStreetMap</a> contributors\"",
+                            "errorTileUrl",
+                            "\"notfound.png\"",
+                            "TileLayer",
+                            "center",
+                            11,
+                            "addLayer",
+                            "setView",
+                            "\"movestart\"",
+                            "e",
+                            true,
+                            "on",
+                            "mapChanged",
+                            "getCenter",
+                            "zoom",
+                            "getZoom",
+                            "setHash",
+                            "window",
+                            "proxy",
+                            "\"moveend\"",
+                            "\"zoomend\"",
+                            "location",
+                            "getHash",
+                            "applicationCache",
+                            "\"updateready\"",
+                            "\"App update is now ready\"",
+                            "console",
+                            "log",
+                            "\"An update is available. Reload now?\"",
+                            "confirm",
+                            "reload",
+                            "addEventListener",
+                            "\"cached\"",
+                            "\"stuff has now been cached\"",
+                            "positionAlkos",
+                            "isInLocation",
+                            "latlng",
+                            "equals",
+                            "addMarker",
+                            "pos",
+                            "size",
+                            "popupText",
+                            "icon",
+                            "opts",
+                            4,
+                            "Math",
+                            "pow",
+                            "Circle",
+                            "bindPopup",
+                            "hash",
+                            "\"#\"",
+                            "lat",
+                            "\",\"",
+                            "lng",
+                            "\"/\"",
+                            "document",
+                            1,
+                            "substring",
+                            "parts",
+                            "split",
+                            "length",
+                            2,
+                            0,
+                            "data",
+                            "i",
+                            "it",
+                            "latitude",
+                            "longitude",
+                            "mag",
+                            "place",
+                            "\"<br> Magnitude: \"",
+                            "push",
+                            "$",
+                            "each",
+                            "\"Error fetching alkos\"",
+                            "arguments",
+                            "getJSON",
+                            "then",
+                            "context",
+                            "func",
+                            "_this",
+                            "apply"
+                        ]
+                    },
+                    "length": 536,
+                    "vocabulary": 123,
+                    "difficulty": 23.495283018867923,
+                    "volume": 3721.1877748618326,
+                    "effort": 87430.35993673012,
+                    "bugs": 1.2403959249539442,
+                    "time": 4857.242218707229
+                },
+                "params": 13,
+                "line": 1,
+                "cyclomaticDensity": 12.658227848101266
+            },
+            "functions": [
+                {
+                    "name": "initialize",
+                    "sloc": {
+                        "logical": 18,
+                        "physical": 50
+                    },
+                    "cyclomatic": 3,
+                    "halstead": {
+                        "operators": {
+                            "distinct": 10,
+                            "total": 59,
+                            "identifiers": [
+                                "=",
+                                ".",
+                                "new",
+                                "var",
+                                "{}",
+                                ":",
+                                "()",
+                                "function",
+                                "if",
+                                "&&"
+                            ]
+                        },
+                        "operands": {
+                            "distinct": 34,
+                            "total": 73,
+                            "identifiers": [
+                                "this",
+                                "map",
+                                "\"map\"",
+                                "L",
+                                "Map",
+                                "tileurl",
+                                "\"http://{s}.tile.osm.org/{z}/{x}/{y}.png\"",
+                                "basemap",
+                                "<anonymous>",
+                                "attribution",
+                                "\"&copy; <a href=\"http://osm.org/copyright\">OpenStreetMap</a> contributors\"",
+                                "errorTileUrl",
+                                "\"notfound.png\"",
+                                "TileLayer",
+                                "center",
+                                "defaultLocation",
+                                11,
+                                "addLayer",
+                                "setView",
+                                "\"movestart\"",
+                                "on",
+                                "mapChanged",
+                                "window",
+                                "proxy",
+                                "\"moveend\"",
+                                "\"zoomend\"",
+                                "location",
+                                "getHash",
+                                "zoom",
+                                "applicationCache",
+                                "\"updateready\"",
+                                "addEventListener",
+                                "\"cached\"",
+                                "positionAlkos"
+                            ]
+                        },
+                        "length": 132,
+                        "vocabulary": 44,
+                        "difficulty": 10.735294117647058,
+                        "volume": 720.6449736601232,
+                        "effort": 7736.33574664544,
+                        "bugs": 0.24021499122004109,
+                        "time": 429.7964303691911
+                    },
+                    "params": 0,
+                    "line": 10,
+                    "cyclomaticDensity": 16.666666666666664
+                },
+                {
+                    "name": "<anonymous>",
+                    "sloc": {
+                        "logical": 1,
+                        "physical": 3
+                    },
+                    "cyclomatic": 1,
+                    "halstead": {
+                        "operators": {
+                            "distinct": 2,
+                            "total": 2,
+                            "identifiers": [
+                                "=",
+                                "."
+                            ]
+                        },
+                        "operands": {
+                            "distinct": 4,
+                            "total": 4,
+                            "identifiers": [
+                                "e",
+                                "this",
+                                "panned",
+                                true
+                            ]
+                        },
+                        "length": 6,
+                        "vocabulary": 6,
+                        "difficulty": 1,
+                        "volume": 15.509775004326936,
+                        "effort": 15.509775004326936,
+                        "bugs": 0.005169925001442312,
+                        "time": 0.861654166907052
+                    },
+                    "params": 1,
+                    "line": 25,
+                    "cyclomaticDensity": 100
+                },
+                {
+                    "name": "<anonymous>",
+                    "sloc": {
+                        "logical": 5,
+                        "physical": 6
+                    },
+                    "cyclomatic": 1,
+                    "halstead": {
+                        "operators": {
+                            "distinct": 6,
+                            "total": 15,
+                            "identifiers": [
+                                "var",
+                                "=",
+                                "()",
+                                ".",
+                                "{}",
+                                ":"
+                            ]
+                        },
+                        "operands": {
+                            "distinct": 9,
+                            "total": 16,
+                            "identifiers": [
+                                "e",
+                                "center",
+                                "this",
+                                "map",
+                                "getCenter",
+                                "zoom",
+                                "getZoom",
+                                "<anonymous>",
+                                "setHash"
+                            ]
+                        },
+                        "length": 31,
+                        "vocabulary": 15,
+                        "difficulty": 5.333333333333333,
+                        "volume": 121.11360846386408,
+                        "effort": 645.9392451406084,
+                        "bugs": 0.040371202821288026,
+                        "time": 35.88551361892269
+                    },
+                    "params": 1,
+                    "line": 29,
+                    "cyclomaticDensity": 20
+                },
+                {
+                    "name": "<anonymous>",
+                    "sloc": {
+                        "logical": 3,
+                        "physical": 6
+                    },
+                    "cyclomatic": 2,
+                    "halstead": {
+                        "operators": {
+                            "distinct": 3,
+                            "total": 7,
+                            "identifiers": [
+                                "()",
+                                ".",
+                                "if"
+                            ]
+                        },
+                        "operands": {
+                            "distinct": 8,
+                            "total": 8,
+                            "identifiers": [
+                                "\"App update is now ready\"",
+                                "console",
+                                "log",
+                                "\"An update is available. Reload now?\"",
+                                "confirm",
+                                "window",
+                                "location",
+                                "reload"
+                            ]
+                        },
+                        "length": 15,
+                        "vocabulary": 11,
+                        "difficulty": 1.5,
+                        "volume": 51.89147427955947,
+                        "effort": 77.8372114193392,
+                        "bugs": 0.01729715809318649,
+                        "time": 4.324289523296622
+                    },
+                    "params": 0,
+                    "line": 45,
+                    "cyclomaticDensity": 66.66666666666666
+                },
+                {
+                    "name": "<anonymous>",
+                    "sloc": {
+                        "logical": 1,
+                        "physical": 3
+                    },
+                    "cyclomatic": 1,
+                    "halstead": {
+                        "operators": {
+                            "distinct": 2,
+                            "total": 2,
+                            "identifiers": [
+                                "()",
+                                "."
+                            ]
+                        },
+                        "operands": {
+                            "distinct": 3,
+                            "total": 3,
+                            "identifiers": [
+                                "\"stuff has now been cached\"",
+                                "console",
+                                "log"
+                            ]
+                        },
+                        "length": 5,
+                        "vocabulary": 5,
+                        "difficulty": 1,
+                        "volume": 11.60964047443681,
+                        "effort": 11.60964047443681,
+                        "bugs": 0.0038698801581456034,
+                        "time": 0.6449800263576005
+                    },
+                    "params": 0,
+                    "line": 52,
+                    "cyclomaticDensity": 100
+                },
+                {
+                    "name": "isInLocation",
+                    "sloc": {
+                        "logical": 4,
+                        "physical": 8
+                    },
+                    "cyclomatic": 2,
+                    "halstead": {
+                        "operators": {
+                            "distinct": 6,
+                            "total": 10,
+                            "identifiers": [
+                                "var",
+                                "=",
+                                "()",
+                                ".",
+                                "if",
+                                "return"
+                            ]
+                        },
+                        "operands": {
+                            "distinct": 8,
+                            "total": 10,
+                            "identifiers": [
+                                "latlng",
+                                "center",
+                                "this",
+                                "map",
+                                "getCenter",
+                                "equals",
+                                true,
+                                false
+                            ]
+                        },
+                        "length": 20,
+                        "vocabulary": 14,
+                        "difficulty": 3.75,
+                        "volume": 76.14709844115208,
+                        "effort": 285.5516191543203,
+                        "bugs": 0.025382366147050694,
+                        "time": 15.863978841906683
+                    },
+                    "params": 1,
+                    "line": 60,
+                    "cyclomaticDensity": 50
+                },
+                {
+                    "name": "addMarker",
+                    "sloc": {
+                        "logical": 7,
+                        "physical": 10
+                    },
+                    "cyclomatic": 3,
+                    "halstead": {
+                        "operators": {
+                            "distinct": 10,
+                            "total": 19,
+                            "identifiers": [
+                                "var",
+                                "=",
+                                ":?",
+                                "{}",
+                                ":",
+                                "new",
+                                "()",
+                                ".",
+                                "if",
+                                "return"
+                            ]
+                        },
+                        "operands": {
+                            "distinct": 16,
+                            "total": 28,
+                            "identifiers": [
+                                "pos",
+                                "size",
+                                "popupText",
+                                "icon",
+                                "opts",
+                                "<anonymous>",
+                                "marker",
+                                4,
+                                "Math",
+                                "pow",
+                                "L",
+                                "Circle",
+                                "bindPopup",
+                                "this",
+                                "map",
+                                "addLayer"
+                            ]
+                        },
+                        "length": 47,
+                        "vocabulary": 26,
+                        "difficulty": 8.75,
+                        "volume": 220.92066675263135,
+                        "effort": 1933.0558340855243,
+                        "bugs": 0.07364022225087712,
+                        "time": 107.39199078252913
+                    },
+                    "params": 4,
+                    "line": 68,
+                    "cyclomaticDensity": 42.857142857142854
+                },
+                {
+                    "name": "setHash",
+                    "sloc": {
+                        "logical": 7,
+                        "physical": 8
+                    },
+                    "cyclomatic": 2,
+                    "halstead": {
+                        "operators": {
+                            "distinct": 10,
+                            "total": 29,
+                            "identifiers": [
+                                "if",
+                                "else",
+                                "! (prefix)",
+                                "()",
+                                "{}",
+                                ":",
+                                ".",
+                                "var",
+                                "=",
+                                "+"
+                            ]
+                        },
+                        "operands": {
+                            "distinct": 17,
+                            "total": 29,
+                            "identifiers": [
+                                "opts",
+                                "<anonymous>",
+                                "center",
+                                "this",
+                                "map",
+                                "getCenter",
+                                "zoom",
+                                "getZoom",
+                                "setHash",
+                                "hash",
+                                "\"#\"",
+                                "lat",
+                                "\",\"",
+                                "lng",
+                                "\"/\"",
+                                "document",
+                                "location"
+                            ]
+                        },
+                        "length": 58,
+                        "vocabulary": 27,
+                        "difficulty": 8.529411764705882,
+                        "volume": 275.78347512548123,
+                        "effort": 2352.2708172467514,
+                        "bugs": 0.09192782504182707,
+                        "time": 130.68171206926397
+                    },
+                    "params": 1,
+                    "line": 78,
+                    "cyclomaticDensity": 28.57142857142857
+                },
+                {
+                    "name": "getHash",
+                    "sloc": {
+                        "logical": 10,
+                        "physical": 15
+                    },
+                    "cyclomatic": 3,
+                    "halstead": {
+                        "operators": {
+                            "distinct": 10,
+                            "total": 34,
+                            "identifiers": [
+                                "var",
+                                "=",
+                                "()",
+                                ".",
+                                "if",
+                                "<",
+                                "return",
+                                "{}",
+                                ":",
+                                "new"
+                            ]
+                        },
+                        "operands": {
+                            "distinct": 17,
+                            "total": 34,
+                            "identifiers": [
+                                "hash",
+                                1,
+                                "document",
+                                "location",
+                                "substring",
+                                "parts",
+                                "\"/\"",
+                                "split",
+                                "length",
+                                2,
+                                "<anonymous>",
+                                "center",
+                                "\",\"",
+                                0,
+                                "L",
+                                "LatLng",
+                                "zoom"
+                            ]
+                        },
+                        "length": 68,
+                        "vocabulary": 27,
+                        "difficulty": 10,
+                        "volume": 323.3323501471159,
+                        "effort": 3233.323501471159,
+                        "bugs": 0.10777745004903863,
+                        "time": 179.6290834150644
+                    },
+                    "params": 0,
+                    "line": 86,
+                    "cyclomaticDensity": 30
+                },
+                {
+                    "name": "positionAlkos",
+                    "sloc": {
+                        "logical": 1,
+                        "physical": 12
+                    },
+                    "cyclomatic": 1,
+                    "halstead": {
+                        "operators": {
+                            "distinct": 3,
+                            "total": 9,
+                            "identifiers": [
+                                "()",
+                                "function",
+                                "."
+                            ]
+                        },
+                        "operands": {
+                            "distinct": 7,
+                            "total": 11,
+                            "identifiers": [
+                                "this",
+                                "<anonymous>",
+                                "proxy",
+                                "quakesFile",
+                                "$",
+                                "getJSON",
+                                "then"
+                            ]
+                        },
+                        "length": 20,
+                        "vocabulary": 10,
+                        "difficulty": 2.357142857142857,
+                        "volume": 66.43856189774725,
+                        "effort": 156.60518161611853,
+                        "bugs": 0.02214618729924908,
+                        "time": 8.70028786756214
+                    },
+                    "params": 0,
+                    "line": 101,
+                    "cyclomaticDensity": 100
+                },
+                {
+                    "name": "<anonymous>",
+                    "sloc": {
+                        "logical": 1,
+                        "physical": 8
+                    },
+                    "cyclomatic": 1,
+                    "halstead": {
+                        "operators": {
+                            "distinct": 3,
+                            "total": 4,
+                            "identifiers": [
+                                "()",
+                                "function",
+                                "."
+                            ]
+                        },
+                        "operands": {
+                            "distinct": 6,
+                            "total": 7,
+                            "identifiers": [
+                                "data",
+                                "this",
+                                "<anonymous>",
+                                "proxy",
+                                "$",
+                                "each"
+                            ]
+                        },
+                        "length": 11,
+                        "vocabulary": 9,
+                        "difficulty": 1.75,
+                        "volume": 34.86917501586544,
+                        "effort": 61.021056277764515,
+                        "bugs": 0.011623058338621813,
+                        "time": 3.3900586820980285
+                    },
+                    "params": 1,
+                    "line": 102,
+                    "cyclomaticDensity": 100
+                },
+                {
+                    "name": "<anonymous>",
+                    "sloc": {
+                        "logical": 2,
+                        "physical": 6
+                    },
+                    "cyclomatic": 1,
+                    "halstead": {
+                        "operators": {
+                            "distinct": 5,
+                            "total": 16,
+                            "identifiers": [
+                                "=",
+                                ".",
+                                "()",
+                                "new",
+                                "+"
+                            ]
+                        },
+                        "operands": {
+                            "distinct": 14,
+                            "total": 23,
+                            "identifiers": [
+                                "i",
+                                "it",
+                                "marker",
+                                "latitude",
+                                "longitude",
+                                "L",
+                                "LatLng",
+                                "mag",
+                                "place",
+                                "\"<br> Magnitude: \"",
+                                "this",
+                                "addMarker",
+                                "quakes",
+                                "push"
+                            ]
+                        },
+                        "length": 39,
+                        "vocabulary": 19,
+                        "difficulty": 4.107142857142857,
+                        "volume": 165.66917302429982,
+                        "effort": 680.426960635517,
+                        "bugs": 0.05522305767476661,
+                        "time": 37.80149781308428
+                    },
+                    "params": 2,
+                    "line": 103,
+                    "cyclomaticDensity": 50
+                },
+                {
+                    "name": "<anonymous>",
+                    "sloc": {
+                        "logical": 1,
+                        "physical": 3
+                    },
+                    "cyclomatic": 1,
+                    "halstead": {
+                        "operators": {
+                            "distinct": 2,
+                            "total": 2,
+                            "identifiers": [
+                                "()",
+                                "."
+                            ]
+                        },
+                        "operands": {
+                            "distinct": 4,
+                            "total": 4,
+                            "identifiers": [
+                                "\"Error fetching alkos\"",
+                                "arguments",
+                                "console",
+                                "log"
+                            ]
+                        },
+                        "length": 6,
+                        "vocabulary": 6,
+                        "difficulty": 1,
+                        "volume": 15.509775004326936,
+                        "effort": 15.509775004326936,
+                        "bugs": 0.005169925001442312,
+                        "time": 0.861654166907052
+                    },
+                    "params": 0,
+                    "line": 109,
+                    "cyclomaticDensity": 100
+                },
+                {
+                    "name": "window.proxy",
+                    "sloc": {
+                        "logical": 2,
+                        "physical": 6
+                    },
+                    "cyclomatic": 1,
+                    "halstead": {
+                        "operators": {
+                            "distinct": 4,
+                            "total": 4,
+                            "identifiers": [
+                                "var",
+                                "=",
+                                "return",
+                                "function"
+                            ]
+                        },
+                        "operands": {
+                            "distinct": 4,
+                            "total": 5,
+                            "identifiers": [
+                                "context",
+                                "func",
+                                "_this",
+                                "<anonymous>"
+                            ]
+                        },
+                        "length": 9,
+                        "vocabulary": 8,
+                        "difficulty": 2.5,
+                        "volume": 27,
+                        "effort": 67.5,
+                        "bugs": 0.009,
+                        "time": 3.75
+                    },
+                    "params": 2,
+                    "line": 116,
+                    "cyclomaticDensity": 50
+                },
+                {
+                    "name": "<anonymous>",
+                    "sloc": {
+                        "logical": 1,
+                        "physical": 3
+                    },
+                    "cyclomatic": 1,
+                    "halstead": {
+                        "operators": {
+                            "distinct": 3,
+                            "total": 3,
+                            "identifiers": [
+                                "return",
+                                "()",
+                                "."
+                            ]
+                        },
+                        "operands": {
+                            "distinct": 4,
+                            "total": 4,
+                            "identifiers": [
+                                "_this",
+                                "arguments",
+                                "func",
+                                "apply"
+                            ]
+                        },
+                        "length": 7,
+                        "vocabulary": 7,
+                        "difficulty": 1.5,
+                        "volume": 19.651484454403228,
+                        "effort": 29.47722668160484,
+                        "bugs": 0.00655049481813441,
+                        "time": 1.6376237045336022
+                    },
+                    "params": 0,
+                    "line": 118,
+                    "cyclomaticDensity": 100
+                }
+            ],
+            "dependencies": [],
+            "maintainability": 123.27560873850771,
+            "params": 0.8666666666666667,
+            "path": "/Users/pkro/Dropbox/Dippa/analysis/sisters/proportionalsymbol/js/peruskartta.js"
+        }
+    ],
+    "adjacencyMatrix": [
+        [
+            0
+        ]
+    ],
+    "firstOrderDensity": 0,
+    "visibilityMatrix": [
+        [
+            0
+        ]
+    ],
+    "changeCost": 100,
+    "coreSize": 0
+}

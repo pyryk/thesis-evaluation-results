@@ -1,0 +1,256 @@
+{
+    "reports": [
+        {
+            "aggregate": {
+                "sloc": {
+                    "logical": 12,
+                    "physical": 12
+                },
+                "cyclomatic": 1,
+                "halstead": {
+                    "operators": {
+                        "distinct": 10,
+                        "total": 55,
+                        "identifiers": [
+                            "()",
+                            "function",
+                            "var",
+                            "=",
+                            "new",
+                            ".",
+                            "{}",
+                            ":",
+                            "return",
+                            "+"
+                        ]
+                    },
+                    "operands": {
+                        "distinct": 39,
+                        "total": 57,
+                        "identifiers": [
+                            "<anonymous>",
+                            "map",
+                            "\"map\"",
+                            "document",
+                            "getElementById",
+                            "zoom",
+                            11,
+                            "imagePath",
+                            "\"/images/leaflet\"",
+                            "thematic",
+                            "Thematic",
+                            "dots",
+                            "converters",
+                            "flatToGeoJSON",
+                            "resp",
+                            "json",
+                            "\"alko-markers.json\"",
+                            "fetch",
+                            "then",
+                            "\"alkos\"",
+                            "popupText",
+                            "point",
+                            "props",
+                            "properties",
+                            "url",
+                            "\"http://www.alko.fi\"",
+                            "\"<a target=\"_blank\" href=\"\"",
+                            "\"\">Alko \"",
+                            "name",
+                            "\"</a><br>\"",
+                            "address",
+                            "\"<br>\"",
+                            "postalCode",
+                            "\" \"",
+                            "locality",
+                            "modules",
+                            "Dot",
+                            "setData",
+                            "addModule"
+                        ]
+                    },
+                    "length": 112,
+                    "vocabulary": 49,
+                    "difficulty": 7.3076923076923075,
+                    "volume": 628.8475025409033,
+                    "effort": 4595.424057029678,
+                    "bugs": 0.2096158341803011,
+                    "time": 255.30133650164876
+                },
+                "params": 2,
+                "line": 1,
+                "cyclomaticDensity": 8.333333333333332
+            },
+            "functions": [
+                {
+                    "name": "<anonymous>",
+                    "sloc": {
+                        "logical": 6,
+                        "physical": 12
+                    },
+                    "cyclomatic": 1,
+                    "halstead": {
+                        "operators": {
+                            "distinct": 8,
+                            "total": 29,
+                            "identifiers": [
+                                "var",
+                                "=",
+                                "new",
+                                "()",
+                                ".",
+                                "{}",
+                                ":",
+                                "function"
+                            ]
+                        },
+                        "operands": {
+                            "distinct": 23,
+                            "total": 31,
+                            "identifiers": [
+                                "map",
+                                "\"map\"",
+                                "document",
+                                "getElementById",
+                                "<anonymous>",
+                                "zoom",
+                                11,
+                                "imagePath",
+                                "\"/images/leaflet\"",
+                                "thematic",
+                                "Thematic",
+                                "dots",
+                                "converters",
+                                "flatToGeoJSON",
+                                "\"alko-markers.json\"",
+                                "fetch",
+                                "then",
+                                "\"alkos\"",
+                                "popupText",
+                                "modules",
+                                "Dot",
+                                "setData",
+                                "addModule"
+                            ]
+                        },
+                        "length": 60,
+                        "vocabulary": 31,
+                        "difficulty": 5.391304347826087,
+                        "volume": 297.25177862321254,
+                        "effort": 1602.5748064903632,
+                        "bugs": 0.09908392620773751,
+                        "time": 89.03193369390907
+                    },
+                    "params": 0,
+                    "line": 1,
+                    "cyclomaticDensity": 16.666666666666664
+                },
+                {
+                    "name": "<anonymous>",
+                    "sloc": {
+                        "logical": 1,
+                        "physical": 1
+                    },
+                    "cyclomatic": 1,
+                    "halstead": {
+                        "operators": {
+                            "distinct": 3,
+                            "total": 3,
+                            "identifiers": [
+                                "return",
+                                "()",
+                                "."
+                            ]
+                        },
+                        "operands": {
+                            "distinct": 2,
+                            "total": 3,
+                            "identifiers": [
+                                "resp",
+                                "json"
+                            ]
+                        },
+                        "length": 6,
+                        "vocabulary": 5,
+                        "difficulty": 2.25,
+                        "volume": 13.931568569324174,
+                        "effort": 31.34602928097939,
+                        "bugs": 0.004643856189774725,
+                        "time": 1.7414460711655217
+                    },
+                    "params": 1,
+                    "line": 3,
+                    "cyclomaticDensity": 100
+                },
+                {
+                    "name": "popupText",
+                    "sloc": {
+                        "logical": 3,
+                        "physical": 5
+                    },
+                    "cyclomatic": 1,
+                    "halstead": {
+                        "operators": {
+                            "distinct": 5,
+                            "total": 21,
+                            "identifiers": [
+                                "var",
+                                "=",
+                                ".",
+                                "+",
+                                "return"
+                            ]
+                        },
+                        "operands": {
+                            "distinct": 14,
+                            "total": 22,
+                            "identifiers": [
+                                "point",
+                                "props",
+                                "properties",
+                                "url",
+                                "\"http://www.alko.fi\"",
+                                "\"<a target=\"_blank\" href=\"\"",
+                                "\"\">Alko \"",
+                                "name",
+                                "\"</a><br>\"",
+                                "address",
+                                "\"<br>\"",
+                                "postalCode",
+                                "\" \"",
+                                "locality"
+                            ]
+                        },
+                        "length": 43,
+                        "vocabulary": 19,
+                        "difficulty": 3.9285714285714284,
+                        "volume": 182.66088307807416,
+                        "effort": 717.5963263781484,
+                        "bugs": 0.06088696102602472,
+                        "time": 39.866462576563805
+                    },
+                    "params": 1,
+                    "line": 6,
+                    "cyclomaticDensity": 33.33333333333333
+                }
+            ],
+            "dependencies": [],
+            "maintainability": 128.7040638780462,
+            "params": 0.6666666666666666,
+            "path": "/Users/pkro/Dropbox/Dippa/geoviz-framework-3/src/htdocs/examples/dotmap/dotmap.js"
+        }
+    ],
+    "adjacencyMatrix": [
+        [
+            0
+        ]
+    ],
+    "firstOrderDensity": 0,
+    "visibilityMatrix": [
+        [
+            0
+        ]
+    ],
+    "changeCost": 100,
+    "coreSize": 0
+}
